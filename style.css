@@ -56,7 +56,7 @@ section img{
 }
 
 #my-story{
-    background-color:#00FF00;
+    background-color:#6FFFE9;
     
 }
 
@@ -66,26 +66,32 @@ section img{
 }
 
 #work-portfolio{
-    background-color: #000000;
+    background-color: #090C9B;
     color:var(--Thirdcolor);
     
 }
 
 body {
     font-family: Georgia, Helvetica,'Times New Roman', Times, serif;
-    background-color:#FF0000;
+    background-color:#3F84E5;
 
 }
 
 :root {
-    --firstcolor:#FF0000;
-    --Secondcolor: #00FF00;
-    --Thirdcolor: #FFFF00;
-    --Forthcolor: #000000;
-    --Fifthcolor:#FFFFFF;
+    --firstcolor:#3C3744;
+    --Secondcolor: #090C9B;
+    --Thirdcolor: #3C3744;
+    --Forthcolor: #6FFFE9;
+    --Fifthcolor:#6FFFE9;
 
 }
 
 footer p{
     text-align: center;
+}
+
+.hang {
+    display: inline;
+    float:left;
+    position: relative;
 }
